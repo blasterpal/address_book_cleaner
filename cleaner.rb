@@ -51,7 +51,8 @@ when :missing_phone_and_email
  @vcards_array.delete_if {|card| 
    debug_print  card.telephones.size < 1 ? "No telephones" : "#{card.telephones.size} phones present"  
    debug_print  card.emails.size < 1 ? "No emails" : "#{card.emails.size} emails present"
-   card.telephones.size < 1 && card.emails.size}
+   card.telephones.size < 1 && card.emails.size < 1
+   }
 end   
 
 puts "vcards_array size: #{@original_size} | cleaned_vcards size: #{@vcards_array.size}"
