@@ -26,8 +26,8 @@ Requirements
 
 Use
 ------------
-1) Export ALL your contacts as a single vCard file. This will also act as your backup. KEEP IT!
-2) run script providing exported vCard path and file name as single argument. You should probably quote it in case you have funky paths.
-3) Follow instructions.
-4) Delete all contacts in Address Book.
-5) Import from newly created vCard file that is in the same directory as your input file.
++ Export ALL your contacts as a single vCard file. This will also act as your backup. KEEP IT!
++ run script providing exported vCard path and file name as single argument. You should probably quote it in case you have funky paths.
++ Follow instructions.
++ Delete all contacts in Address Book.
++ Import from newly created vCard file that is in the same directory as your input file.
